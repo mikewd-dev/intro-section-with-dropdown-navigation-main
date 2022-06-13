@@ -146,7 +146,7 @@ body {
 
 #login {
     border: none;
-    background-color: white;
+    background-color: rgb(249, 246, 246); 
     padding-right: 30px;
 }
 
@@ -212,15 +212,53 @@ body {
        text-align: right;
    }
 
-   .right {
-       display: flex;
-       width: 100vw;
-       background-image: url('/images/image-hero-mobile.png');
-       background-position: center;
-       background-repeat: no-repeat;
-       background-size: contain;
+   .front-page {
+       margin: 0;
    }
 
-   
-   
+   .right {
+       display: flex;
+       flex-direction: row;
+       flex-basis: auto;
+       width: 100vw;
+       height: 40vh;
+       background-image: url('/images/image-hero-mobile.png');
+       background-position: 100% 0;
+       background-repeat: no-repeat;
+       background-size: contain;
+       margin-top: 0;
+   }
+
+   .left {
+       display: inline-block;
+       flex-direction: row;
+       text-align: center;
+       width: 100vw;
+       position: relative;
+   }
+  
+   .heading {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 42px;
+    display: flex;
+    padding: 3%;
+    flex-direction: row;
+    text-align: center;
+   }
+
+   .attribution{
+        position: relative;
+    }
+
+    .learn {
+        background-color: black;
+        font-size: medium;
+        font-weight: bold;
+        font-family: 'Epilogue', sans-serif;
+        padding: 14px 30px;
+        color: white;
+        border-radius: 10px;
+    }
 }
+   
+   
