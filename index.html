@@ -15,6 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital@1&family=Dancing+Script:wght@500&display=swap"
     rel="stylesheet">
+  
 
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
@@ -24,7 +25,30 @@
 
 <body>
 
-
+<script>
+  // function changeCaret(){
+  //   if(changeCaretUp()){
+  //     onclick(changeCaretDown())
+  //   } 
+  // }
+  
+//   function changeCaretFeatures(){
+//     if(document.getElementById("dropDownFeatures").src = "/images/icon-arrow-down.svg"){
+//         document.getElementById("dropDownFeatures").src = "/images/icon-arrow-up.svg";
+//     } else {
+//       document.getElementById("dropDownFeatures").src = "/images/icon-arrow-down.svg"
+//     }
+  
+//   }
+//     function changeCaretCompany(){
+//     if(document.getElementById("dropDownCompany").src = "/images/icon-arrow-down.svg"){
+//         document.getElementById("dropDownCompany").src = "/images/icon-arrow-up.svg";
+//     } else {
+//       document.getElementById("dropDownCompany").src = "/images/icon-arrow-down.svg"
+//     }
+  
+// }
+</script>
   <!-- <section> -->
 
   <nav class="navbar navbar-expand-lg">
@@ -39,7 +63,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link" href="#" id="navbarDropdownMenu" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              Features<span class=" dropdown-arrow"><img src="/images/icon-arrow-down.svg" alt=""></span>
+              Features<span class="dropdown-arrow"><img src="/images/icon-arrow-down.svg" class = "dropdownCaret" id="dropDownFeatures" onclick="changeCaretFeatures()"></span>
             </a>
             <!-- <div> -->
             <ul class="dropdown-menu" id="DropdownMenu" aria-labelledby="navbarDropdownMenuLink">
@@ -57,7 +81,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              Company<span class=" dropdown-arrow"><img src="/images/icon-arrow-down.svg" alt=""></span>
+              Company<span class="dropdown-arrow"><img src="/images/icon-arrow-down.svg" class="dropdownCaret" id="dropDownCompany" onclick="changeCaretCompany()"></span>
             </a>
             <ul class="dropdown-menu" id="DropdownCompany" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="#">History</a></li>
@@ -66,7 +90,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Careers</a>
+            <a class="nav-link" aria-current="page" href="#">Careers</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -114,16 +138,19 @@
   </section>
 
   <footer class="attribution">
-
+    
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </footer>
 
   <!-- </section> -->
   <!-- JavaScript Bundle with Popper -->
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
   </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="/javascript/script.js"></script>
 </body>
-
+  
 </html>

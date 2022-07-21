@@ -14,24 +14,6 @@ body {
     padding-right: 0rem;
 }
 
-/* .dropdown-arrow {
-    margin-left: 0.2em;
-} */
-
-.dropdown-arrow,
-.dropdown-arrow::before {
-    background: no-repeat right;
-    padding-right: 0.8rem;
-    background-position: right 0.1rem center;
-}
-
-
-
-
-
-
-
-
 
 .container-fluid {
     background-color: rgb(249, 246, 246);
@@ -56,7 +38,7 @@ body {
 }
 
 .nav-link {
-    color: black;
+    color: rgb(192, 186, 186);
     font-size: small;
 }
 
@@ -218,7 +200,7 @@ body {
 #register {
     background-color: rgb(249, 246, 246);
     border: 2px solid black;
-    padding: 9px 23px;
+    padding: 8px 23px;
     border-radius: 15px;
     text-decoration: none;
     margin-right: 9px;
