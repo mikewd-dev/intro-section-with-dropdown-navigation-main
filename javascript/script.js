@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('img').on({
+    $('.dropdownCaret').on({
         'click': function() {
              var src = ($(this).attr('src') === '/images/icon-arrow-down.svg')
                 ? '/images/icon-arrow-up.svg'
@@ -8,3 +8,10 @@ $(document).ready(function(){
         }
     });
 })
+
+$(document).ready(function(){
+    $('.close-menu').removeClass('close-menu');
+    var click = $('.navbar-toggler').click(function(){ 
+        $('#ChangeToggle').toggleClass('navbar-toggler-icon close-menu')  
+    });
+});
