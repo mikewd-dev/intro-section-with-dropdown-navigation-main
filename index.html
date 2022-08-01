@@ -16,10 +16,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital@1&family=Dancing+Script:wght@500&display=swap"
     rel="stylesheet">
 
-
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
-
-
 
 </head>
 
@@ -27,10 +24,11 @@
 
 
   <nav class="navbar navbar-expand-lg">
-    <div class="container container-fluid">
+    <div class="container-fluid">
       <a class="navbar-brand" href="#"><img class="nav-logo" src="/images/logo.svg" alt="logo"></a>
-      <button class="navbar-toggler" id = "toggler-item" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" id="toggler-item" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span id="ChangeToggle" class="navbar-toggler-icon close-menu"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
@@ -38,8 +36,10 @@
           <li class="nav-item dropdown">
             <a class="nav-link" href="#" id="navbarDropdownMenu" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              Features<span class="dropdown-arrow"><img src="/images/icon-arrow-down.svg" class="dropdownCaret"
-                  id="dropDownFeatures" alt=""></span>
+              Features
+              <span class="dropdown-arrow">
+                <img src="/images/icon-arrow-down.svg" class="dropdownCaret" id="dropDownFeatures" alt="">
+              </span>
             </a>
             <ul class="dropdown-menu" id="DropdownMenu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="#"><span class="drop-menu"><img src="./images/icon-todo.svg"
@@ -55,8 +55,10 @@
           <li class="nav-item dropdown">
             <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
-              Company<span class="dropdown-arrow"><img src="/images/icon-arrow-down.svg" class="dropdownCaret"
-                  id="dropDownCompany" alt=""></span>
+              Company
+              <span class="dropdown-arrow">
+                <img src="/images/icon-arrow-down.svg" class="dropdownCaret" id="dropDownCompany" alt="">
+              </span>
             </a>
             <ul class="dropdown-menu" id="DropdownCompany" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="#">History</a></li>
@@ -71,7 +73,7 @@
             <a class="nav-link" href="#">About</a>
           </li>
         </ul>
-        <ul class = "logReg">
+        <ul class="logReg">
           <li class="d-flex">
             <a class="login me-2" id="login" href="#">Login</a>
             <a class="register" id="register" href="#">Register</a>
@@ -80,32 +82,32 @@
       </div>
     </div>
   </nav>
-  <section>
-    <div class="front-page">
-      <div class="right">
-      </div>
-      <div class="left">
-        <p class="make">
-          Make remote work
-        </p>
-        <p class="para">
-          Get your team in sync, no matter your location.<br>
-          Streamline processes, create team rituals, and <br>
-          watch productivity soar
-        </p>
-        <div>
-          <button class="learn">Learn more</button>
-        </div>
-        <div class="images">
-          <img src="./images/client-databiz.svg" alt="">
-          <img src="./images/client-audiophile.svg" alt="">
-          <img src="./images/client-meet.svg" alt="">
-          <img src="./images/client-maker.svg" alt="">
-        </div>
+
+  <div class="front-page">
+    <div class="right">
+    </div>
+    <div class="left">
+      <div class="make">
+        Make remote work
       </div>
     </div>
+   
+    <div class="para">
+      Get your team in sync, no matter your location.<br>
+      Streamline processes, create team rituals, and <br>
+      watch productivity soar
+    </div>
+    <div class="button">
+      <button class="learn">Learn more</button>
+    </div>
+    <div class="images">
+      <img src="./images/client-databiz.svg" alt="">
+      <img src="./images/client-audiophile.svg" alt="">
+      <img src="./images/client-meet.svg" alt="">
+      <img src="./images/client-maker.svg" alt="">
+    </div>
 
-  </section>
+  </div>
 
   <footer class="attribution">
 
