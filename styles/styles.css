@@ -121,7 +121,7 @@ body {
 
 .para {
     font-family: 'Epilogue', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     padding-top: 3%;
     padding-bottom: 4%;
     color: gray;
@@ -141,7 +141,7 @@ body {
 .front-page {
     padding-top: 5px;
     width: 100%;
-    margin-left: 12%;
+    margin-left: 11%;
     height: auto;
 }
 
@@ -149,6 +149,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 8%;
+    line-height: 83px;
 }
 
 .logReg{
@@ -161,7 +162,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: -5%;
-    width: 68%;
+    width: 64%;
     padding-top: 5%;
     padding-right: 5%;
     float: right;
@@ -189,18 +190,14 @@ body {
 
 .images {
     height: 15px;
-    margin: 14%;
-    justify-content: space-evenly;
-    justify-items: center;
+    margin-top: 3%;
+    padding-right: 7%;
+    /* justify-content: space-evenly;
+    justify-items: center; */
 }
 
 .images img {
-    display: inline-flex;
-    flex-direction: row;
-    height: 12px;
-    justify-content: space-between;
-    align-content: space-between;
-    margin-top: 10%;
+    margin-right: 2%;
  
 }
 
